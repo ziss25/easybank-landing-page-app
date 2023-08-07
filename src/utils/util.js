@@ -53,11 +53,11 @@ export const contentBenefit = [
 export const socialMediaIcon = [
   {
     title: 'facebook',
-    icon: './src/assets/images/icon-facebook.svg',
+    icon: '/assets/images/icon-facebook.svg',
   },
   {
     title: 'youtube',
-    icon: './src/assets/images/icon-youtube.svg',
+    icon: '/assets/images/icon-youtube.svg',
   },
   {
     title: 'twitter',
