@@ -8,7 +8,7 @@ import Button from './Button';
 const Header = ({ setIsOpen, isOpen }) => {
   return (
     <header className="header fixed border top-0 left-0 right-0 shadow-md z-50 bg-white  ">
-      <div className="wrapped h-14 flex justify-between items-center px-3  md:max-w-7xl md:mx-auto 2xl:h-16">
+      <div className="wrapped h-14 flex justify-between items-center px-10  md:max-w-6xl md:mx-auto 2xl:h-16">
         <div>
           <img className="lg:w-32 2xl:w-44" src={logo} alt="logo-company" />
         </div>
