@@ -1,13 +1,13 @@
 import React from 'react';
+
 import logo from '../assets/images/logo.svg';
-// import fb from '../assets/images/icon-facebook.svg';
-// import ig from '../assets/images/icon-instagram.svg';
-// import pinterest from '../assets/images/icon-pinterest.svg';
-// import twitter from '../assets/images/icon-twitter.svg';
-// import yt from '../assets/images/icon-youtube.svg';
+import fb from '../assets/images/icon-facebook.svg';
+import ig from '../assets/images/icon-instagram.svg';
+import pinterest from '../assets/images/icon-pinterest.svg';
+import twitter from '../assets/images/icon-twitter.svg';
+import yt from '../assets/images/icon-youtube.svg';
 import Button from './Button';
 
-import { socialMediaIcon } from '../utils/util.js';
 const Footer = () => {
   return (
     <>
@@ -20,12 +20,22 @@ const Footer = () => {
           </div>
         </div>
         <div className="social-media flex justify-center pt-14">
-          <ul className="flex gap-2">
-            {socialMediaIcon.map((icons, index) => (
-              <li key={index}>
-                <img src={icons.icon} alt="icon-social-media" />
-              </li>
-            ))}
+          <ul className="flex gap-3">
+            <li className="cursor-pointer">
+              <img src={fb} alt="icon-social-media" />
+            </li>
+            <li className="cursor-pointer">
+              <img src={ig} alt="icon-social-media" />
+            </li>
+            <li className="cursor-pointer">
+              <img src={pinterest} alt="icon-social-media" />
+            </li>
+            <li className="cursor-pointer">
+              <img src={twitter} alt="icon-social-media" />
+            </li>
+            <li className="cursor-pointer">
+              <img src={yt} alt="icon-social-media" />
+            </li>
           </ul>
         </div>
         <div className="list my-8 text-center text-[var(--LightGrayishBlue)] text-sm font-light">
@@ -48,7 +58,7 @@ const Footer = () => {
 
       {/* desktop footer */}
       <footer className=" bg-[var(--DarkBlue)] ">
-        <div className="max-w-6xl hidden mx-auto justify-between py-14 lg:flex items-center px-3">
+        <div className="max-w-6xl hidden mx-auto justify-between py-14 lg:flex items-center px-10">
           <div className="section-right flex gap-20" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100">
             <div className="logo-and-socialMedia">
               <div className="company-logo  flex">
@@ -58,12 +68,22 @@ const Footer = () => {
                 </div>
               </div>
               <div className="social-media flex justify-center pt-8">
-                <ul className="flex gap-3">
-                  {socialMediaIcon.map((icons, index) => (
-                    <li className="cursor-pointer" key={index}>
-                      <img src={icons.icon} alt="icon-social-media" />
-                    </li>
-                  ))}
+                <ul className="flex gap-5">
+                  <li className="cursor-pointer">
+                    <img src={fb} alt="icon-social-media" />
+                  </li>
+                  <li className="cursor-pointer">
+                    <img src={ig} alt="icon-social-media" />
+                  </li>
+                  <li className="cursor-pointer">
+                    <img src={pinterest} alt="icon-social-media" />
+                  </li>
+                  <li className="cursor-pointer">
+                    <img src={twitter} alt="icon-social-media" />
+                  </li>
+                  <li className="cursor-pointer">
+                    <img src={yt} alt="icon-social-media" />
+                  </li>
                 </ul>
               </div>
             </div>
