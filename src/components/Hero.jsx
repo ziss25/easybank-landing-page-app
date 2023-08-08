@@ -19,7 +19,7 @@ const Hero = () => {
       </section>
 
       {/* desktop version */}
-      <section className="hidden md:flex h-[90vh]  border ">
+      <section className="hidden md:flex md:h-[75vmin] lg:h-[90vh]  border ">
         <div className="w-7/12 flex items-center pl-5 lg:pl-20 lg:w-5/12 2xl:pl-48">
           <div className="content" data-aos="fade-right" data-aos-duration="2500">
             <h3 className="text-3xl mb-4 font-semibold lg:text-4xl 2xl:text-5xl">Next generation digital banking</h3>

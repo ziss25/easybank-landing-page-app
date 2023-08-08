@@ -40,12 +40,12 @@ const Footer = () => {
         </div>
         <div className="list my-8 text-center text-[var(--LightGrayishBlue)] text-sm font-light">
           <ul className="flex flex-col gap-2">
-            <li>About Us</li>
-            <li>Contact</li>
-            <li>Blog</li>
-            <li>Careers</li>
-            <li>Support</li>
-            <li>Privacy Policy</li>
+            <li className="cursor-pointer hover:text-[var(--LimeGreen)]">About Us</li>
+            <li className="cursor-pointer hover:text-[var(--LimeGreen)]">Contact</li>
+            <li className="cursor-pointer hover:text-[var(--LimeGreen)]">Blog</li>
+            <li className="cursor-pointer hover:text-[var(--LimeGreen)]">Careers</li>
+            <li className="cursor-pointer hover:text-[var(--LimeGreen)]">Support</li>
+            <li className="cursor-pointer hover:text-[var(--LimeGreen)]">Privacy Policy</li>
           </ul>
         </div>
         <div className="flex justify-center">
